@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+}
+
+/* --------- Header Section ----------- */
+
+.header {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.left-section{
+    padding-left: 3vw;
+}
+
+.left-section > div {
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;    
+    font-size: 2.5vw;
+
+}
+
+.middle-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+}
+
+.middle-section > div {
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5vw;
+    padding: 1.9vw;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section > .insta-icon {
+    padding-top: 1.5vw;
+    width: 9vw;
+}
+
+.right-section > .facebook-icon {
+    padding-right: 2vw;
+    width: 5vw;
+}
+
+.right-section > .whatsapp-icon {
+    width: 5vw;
+}
+
+/* --------- Header Section ----------- */
+
+
+/* ---------- Main Hightligh Section ----------- */
+
+
+.image-highlight {
+    margin-top: 8.7vw;
+    position: relative;
+}
+
+.highlight-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.image-highlight > img {
+    width: 100vw;
+    height: auto;
+    max-width: 98.7vw;
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    top: 25%;
+    left: 12%;
+    right: 20%;
+    width: 50%;
+}
+
+.content img {
+    width: 60%;
+    height: 5%;
+    padding: 1.5vw 0vw;
+}
+
+.content span {
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.5vw;
+}
+
+.content p {
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.3vw;
+    letter-spacing: 0.09em;
+}
+
+/* --------- About us section ---------- */
+
+
+.about-us .about-us-heading {
+    align-items: center;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    padding-top: 7vw;
+    padding-bottom: 5vw;
+    text-align: center;
+}
+
+.border-img {
+    width: 30vw;
+    height: 4vh;
+}
+
+.about-us .left-section-details > .border-img {
+    width: 31.5vw;
+    height: 3vh;
+}
+
+.about-us .details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-us .description p{
+    width: 40vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    /* or 160% */
+    padding-left: 10vw;
+    letter-spacing: 0.09em;
+}
+
+.about-us .dough-img {
+    width: 30vw;
+    padding-left: 7vw;
+}
+
+.about-us .left-section-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -5vw;
+    padding-left: 2vw;
+}
+
+
+/* -------- Menu Section ----------- */
+
+.heading-description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    padding-top: 8vw;
+    padding-bottom: 3.5vw;
+    text-align: center;
+}
+
+.heading-description p {
+    display: inline-block;
+    width: 78vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6vw;
+    line-height: 2.5vw;
+    text-align: left;
+    padding-top: 2vw;
+}
+
+.menu {
+    width: 30vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding-left: 10.5vw;
+    padding-top: 2vw;
+}
+
+.menu-items {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    padding: 1.5vw;
+}
+
+.menu-item-img > img{
+    width: 15vw;
+}
+
+.menu-item-details {
+    width: 17vw;
+    padding: 1.2vh 1vw;
+}
+
+.menu-item-details h3 {
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    align-items: center;
+    color: #F2C94C;
+}
+
+.menu-item-details p {
+    padding-top: 1vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+
+    color: #FFFFFF;
+}
+
+.heading-description > .border-img {
+    width: 25vw;
+    height: 4vh;
+}
+
+/* ---------- Find Us ---------- */
+
+.find-us-heading {
+    align-items: center;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    padding-top: 7vw;
+    padding-bottom: 5vw;
+    text-align: center;
+}
+
+.find-us .border-img {
+    width: 30vw;
+    height: 4vh;
+}
+
+
+.find-us .details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.find-us .description p{
+    width: 40vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+    padding-left: 0.7vw;
+}
+
+.find-us .navigation-img {
+    width: 40vw;
+    height: 25vw;
+    padding-left: 3vw;
+}
+
+.find-us .left-section-details {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+}
+
+.find-us .left-section-details .location-icon {
+    width: 3vw;
+    padding-right: 1vw;
+}
+
+.find-us .left-section-details .phone-icon {
+    width: 3vw;
+    padding-right: 1vw;
+}
+
+.find-us .location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    letter-spacing: 0.09em;
+}
+
+.find-us .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 2vw;
+    padding-top: 1vw;
+
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+}
+
+
+/* ------- Footer --------- */
+
+.footer {
+    margin-top: 15vw;
+    margin-bottom: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer .mail-icon {
+    width: 3vw;
+    padding-right: 1vw;
+}
+
+.footer  .phone-icon {
+    width: 3vw;
+    padding-right: 1vw;
+}
+
+.footer .grp-img {
+    width: 10vw;
+}
+
+.footer .footer-img {
+    padding-left: 6vw;
+}
+
+.footer .contact-details {
+    padding-left: 45vw;
+}
+
+.footer .location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    letter-spacing: 0.09em;
+}
+
+.footer .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 2vw;
+    padding-top: 1vw;
+
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+}
+
